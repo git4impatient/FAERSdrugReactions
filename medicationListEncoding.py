@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# this should be used as the reducer stage in a map-reduce-streaming job
+# or run it from the command line on smaller data
 
 import sys
 import md5
