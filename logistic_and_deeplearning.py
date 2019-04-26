@@ -120,6 +120,7 @@ for objective in objectiveHistory:
     print(objective)
 
 # Obtain the receiver-operating characteristic as a dataframe and areaUnderROC.
+# true positive rate (TPR) against the false positive rate (FPR) 
 trainingSummary.roc.show()
 print("areaUnderROC: " + str(trainingSummary.areaUnderROC))
 
